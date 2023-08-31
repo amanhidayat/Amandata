@@ -1,5 +1,5 @@
 
-console.log("soal nomor 2");
+console.log("Soal nomor 2");
 const inputString = "Rabu";
 const cleanString = inputString.toLowerCase().replace(/[^a-z0-9]/g, ''); 
 const length = cleanString.length;
@@ -20,24 +20,23 @@ if (isPalindrome) {
 }
 
 
-
-console.log("soal nomor 3");
-const centimeters = 5;
-const kilometers = centimeters / 100000; // 1 kilometer = 100000 centimeters
+console.log("Soal nomor 3");
+let centimeters = 5;
+let kilometers = centimeters / 100000; // 1 kilometer = 100000 centimeters
 
 console.log(`5 centimeters is equal to ${kilometers} kilometers.`);
 
 
 console.log("soal nomor 4");
-const number = 1000;
-const formattedNumber = `Rp. ${number.toLocaleString('id-ID', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+let number = 1000;
+let formattedNumber = `Rp. ${number.toLocaleString('id-ID', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
 
 console.log(formattedNumber);
 
 
 console.log("soal nomor 5")
-const string = "Hallo Dunia";
-const Searchstring = "ell";
+let string = "Hello Dunia";
+let Searchstring = "ell";
 
 const index = string.indexOf(Searchstring);
 
@@ -50,5 +49,81 @@ if (index !== -1) {
     console.log(string);
 }
 
-console.log("Soal nomor ");
-const nilai = ""
+
+console.log("soal nomor 6")
+let string6 = "Hello world bandung"
+let capitalized_string = "";
+
+for(let i = 0; i < string6.length; i++) {
+  if (string6[i - 1] == " "){
+    capitalized_string = capitalized_string + string6[i].toUpperCase();
+  } else {
+    capitalized_string = capitalized_string + string6[i];
+  }
+}
+console.log(capitalized_string);
+
+console.log("soal nomor 7");
+let string7 = "uhuy";
+let reversedString = "";
+for (let i = string7.length -1; i >=0; i--) {
+  reversedString = reversedString + string7[i];
+}
+console.log(reversedString);
+
+
+console.log("Soal nomor 8")
+function swapCase(inputString2) {
+  let swappedString = "";
+  for (const char of inputString2) {
+      if (char === char.toLowerCase()) {
+          swappedString += char.toUpperCase();
+      } else if (char === char.toUpperCase()) {
+          swappedString += char.toLowerCase();
+      } else {
+          swappedString += char;
+      }
+  }
+  return swappedString;
+}
+let inputString2 = 'The QuiCk BrOwN Fox';
+let result = swapCase(inputString2);
+console.log(result);
+
+console.log("soal nomor 9");
+let a = 10
+let b = 15
+
+console.log(`${a > b ? a : b} is larger then ${a . b ? b : a}`)
+
+console.log("soal nomor 10");
+let a = 9
+let b = 10
+let c - 8
+
+if(a > b) {
+  let d = a 
+  a = b 
+  b = d
+}
+
+if (b > c) {
+  let d = b
+  b = c
+  c = d
+}
+
+if (a > b) {
+  let d = a
+  a = b
+
+  
+}
+
+console.log(a, b, c) 
+
+
+
+
+
+
