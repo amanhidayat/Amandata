@@ -17,7 +17,7 @@ console.log(areObjectsEqual(objA, objC));
 // contoh Input : { a: 1, b: 2 } & { a: 1, c: 3 } Output: { a: 1 }
 console.log("Soal Nomor 2");
 
-function getIntersection(obj1, obj2) {
+function Intersection(obj1, obj2) {
   const result = {};
 
   for (const key in obj1) {
@@ -29,7 +29,7 @@ function getIntersection(obj1, obj2) {
   return result;
 }
 
-console.log(getIntersection({a: 1, b: 2}, {a: 1, c: 3}));
+console.log(Intersection({a: 1, b: 2}, {a: 1, c: 3}));
 
 
 // Membuat fungsi untuk menggabungkan dua array data siswa dan menghapus data duplikat
