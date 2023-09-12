@@ -45,7 +45,6 @@ function bubbleSort(arr) {
 
 console.log(bubbleSort([5, 3, 8, 4, 6]));
 
-
 function selectionSort (arr) {
     let min 
     for (let i = 0; i < arr.length; i++) {
