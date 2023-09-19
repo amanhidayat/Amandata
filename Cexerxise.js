@@ -91,36 +91,36 @@ let result = swapCase(inputString2);
 console.log(result);
 
 console.log("soal nomor 9");
-let a = 10
-let b = 15
+let a1 = 10
+let b1 = 15
 
-console.log(`${a > b ? a : b} is larger then ${a . b ? b : a}`)
+console.log(`${a1 > b1 ? a1 : b1} is larger then ${a1 . b1 ? b1 : a1}`)
 
 console.log("soal nomor 10");
-let a = 9
-let b = 10
-let c - 8
+let a2 = 9
+let b2 = 10
+let c2 = 8
 
-if(a > b) {
-  let d = a 
-  a = b 
-  b = d
+if(a2 > b2) {
+  let d2 = a2 
+  a2 = b2 
+  b2 = d2
 }
 
-if (b > c) {
-  let d = b
-  b = c
-  c = d
+if (b2 > c2) {
+  let d2 = b2
+  b2 = c2
+  c2 = d2
 }
 
-if (a > b) {
-  let d = a
-  a = b
+if (a2 > b2) {
+  let d2 = a2
+  a2 = b2
 
   
 }
 
-console.log(a, b, c) 
+console.log(a2, b2, c2) 
 
 
 
